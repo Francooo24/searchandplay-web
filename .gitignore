@@ -1,0 +1,30 @@
+# Environment files — never commit these
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+**/.env.example.local
+
+# Dependencies
+**/node_modules/
+
+# Next.js build output
+web/.next/
+**/.next/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/.venv/
+
+# Django
+backend/staticfiles/
+
+# Expo / React Native
+frontend/.expo/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
